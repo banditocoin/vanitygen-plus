@@ -99,6 +99,7 @@ main(int argc, char **argv)
 					"AXE : Axe : P\n"
 					"BLAST : BLAST : B\n"
 					"BLK : Blackcoin : B\n"
+					"BNDT : Ƀandito  : B\n"
 					"BWK : Bulwark : b\n"
 					"BQC : BBQcoin : b\n"
 					"BTC : Bitcoin : 1\n"
@@ -1216,6 +1217,14 @@ main(int argc, char **argv)
 					privtype_opt = 239;
 					break;
 			}
+			else
+                        if (strcmp(optarg, "BNDT")== 0) {
+                                fprintf(stderr,
+                                        "Decrypting BNDT Address\n");
+                                        addrtype_opt = 25;
+                                        privtype_opt = 25;
+                                        break;
+                        }
 			break;
 
 /*END ALTCOIN GENERATOR*/

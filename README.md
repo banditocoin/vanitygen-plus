@@ -146,6 +146,7 @@ Current List of Available Coins for Address Generation
 |AXE | Axe | P |
 |BLAST | BLAST | B  |
 |BLK | Blackcoin | B  |
+|BNDT| Ƀandito | B |
 |BWK | Bulwark | b  |
 |BQC | BBQcoin | b  |
 |BTC | Bitcoin | 1  |
